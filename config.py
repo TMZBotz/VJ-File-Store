@@ -30,9 +30,9 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
-API_ID = int(environ.get("API_ID", "28455032"))
-API_HASH = environ.get("API_HASH", "28dbb18229d7701a856c42a46083cccf")
-ADMINS = int(environ.get("ADMINS", "1572929036"))
+API_ID = int(environ.get("API_ID", ""))
+API_HASH = environ.get("API_HASH", "")
+ADMINS = int(environ.get("ADMINS", ""))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
@@ -45,7 +45,7 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "6923295829:AAGjN7-NX2CNnPswmq3Hd6f6ksgX0QBtENQ")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_USERNAME = environ.get("BOT_USERNAME", "Tmz_File_Store_Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
@@ -96,7 +96,7 @@ class Var(object):
     if HAS_SSL:
         URL = "https://vj-file-store-tmz.koyeb.app/"
     else:
-        URL = ""
+        URL = "https://vj-file-store-tmz.koyeb.app/"
 
 
 
