@@ -11,12 +11,12 @@ class script(object):
 # Ask Doubt on telegram @KingVJ01
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂 Fɪʟᴇɴᴀᴍᴇ : {file_name}
    ╔════ Jᴏɪɴ Wɪᴛʜ Us ════╗
-         ▫️<a href=https://t.me/TamilMoviesz_HD> Daily Updates </a>
-         ▫️<a href=https://t.me/MovieszRequest> Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇs </a>
+           ▫️<a href=https://t.me/TamilMoviesz_HD> Daily Updates </a>
+           ▫️<a href=https://t.me/MovieszRequest> Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇs </a>
    ╚════ Jᴏɪɴ Wɪᴛʜ Us ════╝
-sɪᴢᴇ ⚙️: {file_size}
+Sɪᴢᴇ ⚙️: {file_size}
 
 Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/TamilMoviesz_HD)</b>""" 
 
