@@ -13,8 +13,8 @@ class script(object):
     
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
    ╔════ Jᴏɪɴ Wɪᴛʜ Us ════╗
-      ▫️<a href=https://t.me/TamilMoviesz_HD> Daily Updates </a>
-      ▫️<a href=https://t.me/MovieszRequest> Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇs </a>
+         ▫️<a href=https://t.me/TamilMoviesz_HD> Daily Updates </a>
+         ▫️<a href=https://t.me/MovieszRequest> Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇs </a>
    ╚════ Jᴏɪɴ Wɪᴛʜ Us ════╝
 sɪᴢᴇ ⚙️: {file_size}
 
