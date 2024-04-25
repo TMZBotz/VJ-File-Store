@@ -60,7 +60,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 Sᴜʙsᴄʀɪʙᴇ Mʏ Yᴏᴜᴛᴜʙᴇ Cʜᴀɴɴᴇʟ', url='')
+            InlineKeyboardButton('💝 Sᴜʙsᴄʀɪʙᴇ Mʏ Cʜᴀɴɴᴇʟ', url='https://t.me/TamilMoviesz_HD')
             ],[
             InlineKeyboardButton('🔍 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/tmz_support'),
             InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ', url='https://t.me/TamilMoviesz_HD')
@@ -213,7 +213,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@TamilMoviesz_HD' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@TamilMoviesz_HD  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -338,7 +338,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ Mʏ Yᴏᴜᴛᴜʙᴇ Cʜᴀɴɴᴇʟ', url='')
+            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ Mʏ Cʜᴀɴɴᴇʟ', url='https://t.me/TamilMoviesz_HD')
             ],[
             InlineKeyboardButton('🔍 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/tmz_support'),
             InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ', url='https://t.me/TamilMoviesz_HD')
