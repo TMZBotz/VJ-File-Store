@@ -35,8 +35,8 @@ API_HASH = environ.get("API_HASH", "28dbb18229d7701a856c42a46083cccf")
 ADMINS = int(environ.get("ADMINS", "1572929036"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://clonefile:1512@cluster0.m7jshlj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CDB_NAME = environ.get("CDB_NAME", "Cluster0")
 DB_URI = environ.get("DB_URI", "mongodb+srv://filterbot:1512@cluster0.uwg2acx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
@@ -94,7 +94,7 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = ""
+        URL = "https://vj-file-store-tmz.koyeb.app/"
     else:
         URL = ""
 
